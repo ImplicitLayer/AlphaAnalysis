@@ -3,33 +3,33 @@
 </div>
 </br>
 
-**AlphaAnalysis** — это библиотека для анализа финансовых показателей, которая включает классические методы анализа данных и машинное обучение. Проект предназначен для использования в финансовых рынках и может быть полезен для анализа, прогнозирования и оптимизации торговых стратегий, а также для управления портфелем.
+**AlphaAnalysis** — is a library for analyzing financial indicators, which includes classical data analysis methods and machine learning. The project is intended for use in financial markets and can be useful for analysis, forecasting and optimization of trading strategies, as well as for portfolio management.
 
-Основной функционал доступен бесплатно, но для доступа к полному функционалу, включая продвинутые модели машинного обучения и алгоритмическую торговлю, необходимо приобрести **premium** версию.
+Basic functionality is available for free, but to access the full functionality, including advanced machine learning models and algorithmic trading, you must purchase the **premium** version.
 
-## Описание модулей
+## Module Description
 
 ### 1. data
-Модуль для загрузки, очистки и предобработки данных. Сюда входят функции для извлечения данных из различных источников, очистки и преобразования данных, а также создания новых признаков для дальнейшего анализа.
+Module for data loading, cleaning and preprocessing. This includes functions for extracting data from various sources, cleaning and transforming data, and creating new attributes for further analysis.
 
 ### 2. visualization
-Модуль для визуализации финансовых данных, включая построение графиков временных рядов, корреляций и технических индикаторов, таких как скользящие средние и полосы Боллинджера.
+A module for visualizing financial data, including plotting time series, correlations and technical indicators such as moving averages and Bollinger Bands.
 
 ### 3. models
-Этот модуль включает различные модели для анализа финансовых данных, как классические (например, ARIMA, GARCH, VAR), так и современные модели машинного обучения (Random Forest, XGBoost, CatBoost), а также глубокие нейронные сети (LSTM, GRU, Transformer) и алгоритмы машинного обучения с подкреплением для торговли.
+This module includes various models for analyzing financial data, both classical (e.g. ARIMA, GARCH, VAR) and modern machine learning models (Random Forest, XGBoost, CatBoost), as well as deep neural networks (LSTM, GRU, Transformer) for trading.
 
 ### 4. trading
-Модуль для алгоритмической торговли. Включает функциональность для бэктестинга торговых стратегий, симуляции торговли в реальном времени и управления рисками.
+Module for algorithmic trading. Includes functionality for backtesting trading strategies and risk management.
 
 ### 5. portfolio
-Модуль для управления инвестиционным портфелем. Включает в себя инструменты для оптимизации портфеля (MPT, Black-Litterman), оценки рисков (VaR, CVaR) и кластеризации активов.
+Module for investment portfolio management. Includes tools for portfolio optimization (MPT, Black-Litterman), risk assessment (VaR, CVaR) and asset clustering.
 
 ### 6. signal_generation
-Модуль для генерации торговых сигналов. Включает в себя анализ новостей и соцсетей (sentiment analysis), создание технических сигналов и фундаментальный анализ.
+Module for generating trading signals. Includes analysis of news and social networks (sentiment analysis), creation of technical signals and fundamental analysis.
 
-## Установка
+## Installation
 
-Для установки библиотеки используйте pip:
+Use pip to install the library:
 
 ```bash
 pip install alphaanalysis
@@ -37,41 +37,42 @@ pip install alphaanalysis
 
 ## Premium версия
 
-Для доступа к полному функционалу необходимо приобрести **premium** версию.
+To access the full functionality you need to purchase the **premium** version.
 
-|                Категория        |          Модуль          |  Open Source  |  Premium   |
+|                Category         |          Module          |  Open Source  |  Premium   |
 | ------------------------------- | ------------------------ | ------------- | ---------- |
-| **Загрузка и обработка данных** |     `data_loader.py`     |        ☑️     |     -      |
+| **Data loading and processing** |     `data_loader.py`     |        ☑️     |     -      |
 |                                 |   `data_cleaning.py`     |        ☑️     |     -      |
 |                                 | `feature_engineering.py` |       -       |     ☑️     |
-|      **Визуализация**           |     `plots.py`           |        ☑️     |     -      |
+|      **Visualisation**          |     `plots.py`           |        ☑️     |     -      |
 |                                 |   `indicators.py`        |        ☑️     |     -      |
-|          **Модели**             | `classical_models.py`    |        ☑️     |     -      |
+|          **Models**             | `classical_models.py`    |        ☑️     |     -      |
 |                                 |       `ml_models.py`     |        ☑️     |     -      |
 |                                 |    `deep_learning.py`    |       -       |     ☑️     |
 |                                 |       `auto_ml.py`       |       -       |     ☑️     |
-|          **Трейдинг**           |    `backtesting.py`      |       -       |     ☑️     |
+|          **Trading**            |    `backtesting.py`      |       -       |     ☑️     |
 |                                 |  `risk_management.py`    |       -       |     ☑️     |
-|    **Управление портфелем**     |    `optimization.py`     |       -       |     ☑️     |
+|    **Portfolio management**     |    `optimization.py`     |       -       |     ☑️     |
 |                                 |   `risk_analysis.py`     |        ☑️     |     -      |
 |                                 |      `clustering.py`     |        ☑️     |     -      |
-|    **Генерация сигналов**	      | `technical_signals.py`   |        ☑️     |     -      |
+|    **Signal generation**	      | `technical_signals.py`   |        ☑️     |     -      |
 |                                 | `fundamental_signals.py` |       -       |     ☑️     |
 |                                 | `sentiment_analysis.py`  |       -       |     ☑️     |
 
-Для получения доступа к premium функционалу, свяжитесь с нами по [электронной почте](burenok023@gmail.com).
+To access premium functionality, contact us at [email](burenok023@gmail.com).
 
-## Примеры использования
-Пример использования для прогнозирования временных рядов:
+## Examples of use
+
+Example of use for time series forecasting:
 
 ```python
 from AlphaAnalysis.models import classical_models
 from AlphaAnalysis.data import data_loader
 
-# Загрузка данных
+# load data
 data = data_loader.load_from_csv('historical_stock_data.csv')
 
-# Применение модели ARIMA
+# using ARIMA model
 classical_models = classical_models.ClassicalModels()
 
 forecast, summary = classical_models.arima_model(data, 'price', order=(5, 1, 0))
@@ -79,7 +80,7 @@ print("ARIMA Model Summary:")
 print(summary)
 ```
 
-Пример кластеризации активов:
+The example of asset clustering:
 
 ```python
 from AlphaAnalysis.portfolio.clustering import PortfolioClustering
@@ -91,7 +92,7 @@ assets = ['AAPL', 'GOOGL', 'MSFT', 'AMZN', 'TSLA', 'NFLX', 'NVDA', 'JPM', 'XOM',
 num_assets = len(assets)
 num_days = 252
 
-# Симуляция доходностей
+# profit simulation
 simulated_returns = pd.DataFrame(np.random.randn(num_days, num_assets) / 100, columns=assets)
 
 clustering = PortfolioClustering(simulated_returns)
@@ -102,20 +103,20 @@ print("K-Means Clustering:")
 print(kmeans_result)
 ```
 
-## Планы на будущее
+## Future plans
 
-Мы активно развиваем AlphaAnalysis и планируем добавить:
+We are actively developing AlphaAnalysis and plan to add:
 
-* **Генеративные модели (GANs)** для симуляции рыночных данных
-* **Кастомизируемые торговые стратегии** через пользовательские скрипты
-* **Обучение с подкреплением**
-* Более сложные **методы моделирования**
-  
-Если у вас есть предложения, откройте issue в репозитории!
+* **Generative models (GANs)** to simulate market data
+* **Customisable trading strategies** via custom scripts
+* **Reinforcement learning**
+* More complex **modelling methods**
+    
+If you have suggestions, open an issue in the repository!
 
-## Контакты
+## Contacts
 
-C нами можно связаться с помощью:
+We can be contacted by:
 
 📩 Email: burenok023@gmail.com
 
