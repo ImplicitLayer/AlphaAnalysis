@@ -59,7 +59,9 @@ To access the full functionality you need to purchase the **premium** version.
 |                                 | `fundamental_signals.py` |       -       |     ☑️     |
 |                                 | `sentiment_analysis.py`  |       -       |     ☑️     |
 
-To access premium functionality, contact us at [email](burenok023@gmail.com).
+To access premium functionality, contact us.
+
+📩 Email: burenok023@gmail.com
 
 ## Examples of use
 
