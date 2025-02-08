@@ -116,7 +116,9 @@ print(kmeans_result)
 ## Контакты
 
 C нами можно связаться с помощью:
+
 📩 Email: burenok023@gmail.com
+
 🔗 Telegram: @artemburenok
 
 
