@@ -1,0 +1,15 @@
+pandas
+yfinance
+alpha_vantage
+requests
+matplotlib
+seaborn
+numpy
+statsmodels
+scikit-learn
+arch
+xgboost
+catboost
+tensorflow
+nltk
+textblob
