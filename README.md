@@ -35,6 +35,12 @@ Use pip to install the library:
 pip install alphaanalysis
 ```
 
+And for full version:
+
+```bash
+pip install git+https://github.com/ImplicitLayer/AlphaAnalysisPremium.git@main
+```
+
 ## Premium version
 
 To access the full functionality you need to purchase the **premium** version.
