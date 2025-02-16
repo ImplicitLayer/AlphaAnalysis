@@ -35,6 +35,22 @@ Use pip to install the library:
 pip install alphaanalysis
 ```
 
+Or follow these steps:
+
+1. Clone the repository:
+```bash
+git clone https://github.com/ImplicitLayer/AlphaAnalysis.git
+cd AlphaAnalysis
+```    
+2. Install the dependencies:
+```bash
+pip install -r requirements.txt
+```
+3. For installing the library in your development environment, use:
+```bash
+pip install -e .
+```
+
 ## Premium version
 
 To access the full functionality you need to purchase the **premium** version.
