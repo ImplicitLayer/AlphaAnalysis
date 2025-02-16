@@ -32,7 +32,7 @@ Module for generating trading signals. Includes analysis of news and social netw
 Use pip to install the library:
 
 ```bash
-pip install alphaanalysis
+pip install AlphaAnalysis
 ```
 
 Or follow these steps:
