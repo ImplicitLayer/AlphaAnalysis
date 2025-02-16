@@ -29,7 +29,7 @@ Module for generating trading signals. Includes analysis of news and social netw
 
 ## Installation
 
-follow these steps:
+Follow these steps:
 
 1. Clone the repository:
 ```bash
