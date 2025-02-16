@@ -33,7 +33,7 @@ Follow these steps:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/ImplicitLayer/AlphaAnalysisPremium.git
+git clone https://<PERSONAL-ACCESS-TOKEN>@github.com/ImplicitLayer/AlphaAnalysisPremium.git
 cd AlphaAnalysisPremium
 ```    
 2. Install the dependencies:
