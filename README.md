@@ -32,7 +32,7 @@ Module for generating trading signals. Includes analysis of news and social netw
 Use pip to install the library:
 
 ```bash
-pip install AlphaAnalysis
+pip install alpha_analysis
 ```
 
 Or follow these steps:
@@ -84,8 +84,8 @@ To access premium functionality, contact us.
 Example of use for time series forecasting:
 
 ```python
-from AlphaAnalysis.models import classical_models
-from AlphaAnalysis.data import data_loader
+from alpha_analysis.models import classical_models
+from alpha_analysis.data import data_loader
 
 # load data
 data = data_loader.load_from_csv('historical_stock_data.csv')
@@ -101,7 +101,7 @@ print(summary)
 The example of asset clustering:
 
 ```python
-from AlphaAnalysis.portfolio.clustering import PortfolioClustering
+from alpha_analysis.portfolio.clustering import PortfolioClustering
 import numpy as np
 import pandas as pd
 
