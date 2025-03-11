@@ -45,34 +45,6 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-## Premium version
-
-To access the full functionality you need to purchase the **premium** version.
-
-|                Category         |          Module          |  Open Source  |  Premium   |
-| ------------------------------- | ------------------------ | ------------- | ---------- |
-| **Data loading and processing** |     `data_loader.py`     |        ☑️     |     -      |
-|                                 |   `data_cleaning.py`     |        ☑️     |     -      |
-|                                 | `feature_engineering.py` |       -       |     ☑️     |
-|      **Visualisation**          |     `plots.py`           |        ☑️     |     -      |
-|                                 |   `indicators.py`        |        ☑️     |     -      |
-|          **Models**             | `classical_models.py`    |        ☑️     |     -      |
-|                                 |       `ml_models.py`     |        ☑️     |     -      |
-|                                 |    `deep_learning.py`    |       -       |     ☑️     |
-|                                 |       `auto_ml.py`       |       -       |     ☑️     |
-|          **Trading**            |    `backtesting.py`      |       -       |     ☑️     |
-|                                 |  `risk_management.py`    |       -       |     ☑️     |
-|    **Portfolio management**     |    `optimization.py`     |       -       |     ☑️     |
-|                                 |   `risk_analysis.py`     |        ☑️     |     -      |
-|                                 |      `clustering.py`     |        ☑️     |     -      |
-|    **Signal generation**	      | `technical_signals.py`   |        ☑️     |     -      |
-|                                 | `fundamental_signals.py` |       -       |     ☑️     |
-|                                 | `sentiment_analysis.py`  |       -       |     ☑️     |
-
-To access premium functionality, contact us.
-
-📩 Email: burenok023@gmail.com
-
 ## Examples of use
 
 Example of use for time series forecasting:
