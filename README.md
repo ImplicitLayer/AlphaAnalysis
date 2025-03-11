@@ -5,8 +5,6 @@
 
 **AlphaAnalysis** — is a library for analyzing financial indicators, which includes classical data analysis methods and machine learning. The project is intended for use in financial markets and can be useful for analysis, forecasting and optimization of trading strategies, as well as for portfolio management.
 
-Basic functionality is available for free, but to access the full functionality, including advanced machine learning models and algorithmic trading, you must purchase the **premium** version.
-
 ## Module Description
 
 ### 1. data
@@ -33,8 +31,8 @@ Follow these steps:
 
 1. Clone the repository:
 ```bash
-git clone https://<PERSONAL-ACCESS-TOKEN>@github.com/ImplicitLayer/AlphaAnalysisPremium.git
-cd AlphaAnalysisPremium
+git clone https://<PERSONAL-ACCESS-TOKEN>@github.com/ImplicitLayer/AlphaAnalysis.git
+cd AlphaAnalysis
 ```    
 2. Install the dependencies:
 ```bash
