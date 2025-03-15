@@ -27,11 +27,17 @@ Module for generating trading signals. Includes analysis of news and social netw
 
 ## Installation
 
-Follow these steps:
+Use pip to install the library:
+
+```bash
+pip install alpha_analysis
+```
+
+Or follow these steps:
 
 1. Clone the repository:
 ```bash
-git clone https://<PERSONAL-ACCESS-TOKEN>@github.com/ImplicitLayer/AlphaAnalysis.git
+git clone https://github.com/ImplicitLayer/AlphaAnalysis.git
 cd AlphaAnalysis
 ```    
 2. Install the dependencies:
