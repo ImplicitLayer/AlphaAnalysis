@@ -38,7 +38,7 @@ Or follow these steps:
 1. Clone the repository:
 ```bash
 git clone https://github.com/ImplicitLayer/AlphaAnalysis.git
-cd AlphaAnalysis
+cd alpha_analysis
 ```    
 2. Install the dependencies:
 ```bash
@@ -54,10 +54,10 @@ pip install -e .
 Example of use for time series forecasting:
 
 ```python
-from AlphaAnalysis.models import classical_models
-from AlphaAnalysis.data import data_loader
+from alpha_analysis.models import classical_models
+from alpha_analysis.data_preprocessing import data_loader
 
-# load data
+# load data_preprocessing
 data = data_loader.load_from_csv('historical_stock_data.csv')
 
 # using ARIMA model
@@ -71,7 +71,7 @@ print(summary)
 The example of asset clustering:
 
 ```python
-from AlphaAnalysis.portfolio.clustering import PortfolioClustering
+from alpha_analysis.portfolio.clustering import PortfolioClustering
 import numpy as np
 import pandas as pd
 
