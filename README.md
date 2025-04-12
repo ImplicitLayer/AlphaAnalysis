@@ -7,11 +7,11 @@
 
 ## Module Description
 
-### 1. data
-Module for data loading, cleaning and preprocessing. This includes functions for extracting data from various sources, cleaning and transforming data, and creating new attributes for further analysis.
+### 1. generative_models
+Module for generate financial time series. This includes classes for modeling with GAN and VAE.
 
-### 2. visualization
-A module for visualizing financial data, including plotting time series, correlations and technical indicators such as moving averages and Bollinger Bands.
+### 2. modeling_financial_process
+A module for modeling financial data by stocasic precesses.
 
 ### 3. models
 This module includes various models for analyzing financial data, both classical (e.g. ARIMA, GARCH, VAR) and modern machine learning models (Random Forest, XGBoost, CatBoost), as well as deep neural networks (LSTM, GRU, Transformer) for trading.
@@ -20,10 +20,14 @@ This module includes various models for analyzing financial data, both classical
 Module for algorithmic trading. Includes functionality for backtesting trading strategies and risk management.
 
 ### 5. portfolio
-Module for investment portfolio management. Includes tools for portfolio optimization (MPT, Black-Litterman), risk assessment (VaR, CVaR) and asset clustering.
+Module for investment portfolio management. Includes tools for portfolio optimization, risk assessment and asset clustering.
 
 ### 6. signal_generation
 Module for generating trading signals. Includes analysis of news and social networks (sentiment analysis), creation of technical signals and fundamental analysis.
+
+### 7. time_series
+
+Module, which contains methods for time series analysis
 
 ## Installation
 
